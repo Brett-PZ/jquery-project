@@ -1,0 +1,29 @@
+$(document).ready(() => {
+$('img').hide();
+$('p').hide();
+$('.btn-primary1').on('click',()=>{
+  $('#image1').toggle();
+});
+$('.btn-primary1').on('click',()=>{
+  $('#paragraph1').toggle();
+});
+$('.btn-primary2').on('click',()=>{
+  $('#image2').toggle();
+  });
+  $('.btn-primary2').on('click',()=>{
+    $('#paragraph2').toggle();
+  });
+$('.btn-primary3').on('click',()=>{
+  $('#image3').toggle();
+  });
+  $('.btn-primary3').on('click',()=>{
+    $('#paragraph3').toggle();
+  });
+$('.btn-primary4').on('click',()=>{
+  $('#image4').toggle();
+});
+$('.btn-primary4').on('click',()=>{
+  $('#paragraph4').toggle();
+});
+
+  });
